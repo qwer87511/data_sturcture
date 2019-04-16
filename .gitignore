@@ -1,1 +1,5 @@
 /project/*
+/test/*
+
+*.o
+*.exe
