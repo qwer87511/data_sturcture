@@ -49,7 +49,7 @@ void InfixToPostfix(char input[])
                     printf("%c ", y);
             }while(y != '(');
         }
-        else // if (priorityOf(x) <= priorityOf(Top(stack)))
+        else
         {
             while(priorityOf(x) <= priorityOf(top(stack)))
             {
